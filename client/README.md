@@ -30,4 +30,10 @@ cargo run open-position --with-metadata --is-base-0 173.111627 173.180482 400000
 cargo run remove-all-liquidity
 ```
 
+### Sample scenario
 
+```
+cargo run open-position --with-metadata --is-base-0 173.111627 173.180482 40000000
+cargo run open-position --with-metadata --is-base-0 170.111627 170.180482 40000000
+cargo run remove-all-liquidity
+```
